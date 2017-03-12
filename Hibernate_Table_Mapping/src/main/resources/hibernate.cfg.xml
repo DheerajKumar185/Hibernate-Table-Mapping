@@ -38,6 +38,8 @@
         <!-- Names the annotated entity class -->
         <mapping class="com.tech.doks.hibernate.models.UserDetails"/>
         <mapping class="com.tech.doks.hibernate.models.Vehicle"/>
+        <mapping class="com.tech.doks.hibernate.one2many.using2table.Employee"/>
+        <mapping class="com.tech.doks.hibernate.one2many.using2table.Laptop"/>
         <!-- <mapping resource="org/hibernate/tutorial/hbm/Event.hbm.xml"/> -->
 
     </session-factory>
